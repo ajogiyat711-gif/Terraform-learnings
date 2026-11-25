@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "app_server" {
-  ami           = data.aws_ami.ubuntu.id
+  ami           = ami-0aacbf72109c53c0c
   instance_type = "t2.micro"
 
 }
